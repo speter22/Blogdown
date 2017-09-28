@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	<meta name="generator" content="Hugo 0.29" />
+		<title>Sam&#39;s Blog</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/project.css" />
+		
+		<noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+	</head>
+	
+			<script src="/js/jquery.min.js"></script>
+	<body>
+
+    
+      <div id="wrapper">
+
+        
+          <header id="header">
+            <div class="logo">
+              
+              <img src="/C:/Users/shalo/Desktop/Blogdown/static/image.png/" width="100%" style="padding: 10px 10px 10px 10px;">
+            
+            
+            </div>
+            <div class="content">
+              <div class="inner">
+                <h1>Sam's Blog</h1>
+                <p><!--[--> Where I write about my college adventures and occasionaly other stuff. <!--]--></p>
+              </div>
+            </div>
+            <nav>
+              <ul>
+                
+                  <li><a href="#2017-09-27-data-visualization">Data Visualization</a></li>
+                
+                  <li><a href="#2017-09-27-writing-samples">Writing Samples</a></li>
+                
+              </ul>
+            </nav>
+          </header>
+
+        
+          <div id="main">
+            
+              <article id="2017-09-27-data-visualization">
+  <h1>Data Visualization</h1>
+  <p>
+Before anything you need to retrieve your data, for example.
+</p>
+<p>
+SELECT playerID,sum(HR) AS career_HR ,sum(SO) AS career_SO FROM Batting GROUP BY playerID HAVING sum(HR)
+</p>
+<p>
+save as a result
+</p>
+<p>
+We start our plotting of the data by entering this code, using the initial ggplot(), then adding with a + sign.
+</p>
+<p>
+ggplot()+
+<p/>
+<p>
+geom_point(data=result,aes(x=career_SO,y=career_HR),size=3,color=red)+
+</p>
+<p>
+ggtitle(“career strikeouts vs homeruns for great hitter”)+
+</p>
+<p>
+xlab(“carrer strikeouts”)+ylab(“career homeruns”)
+</p>
+
+</article>
+
+            
+              <article id="2017-09-27-writing-samples">
+  <h1>Writing Samples</h1>
+  <p>Spoiler warning up through Season 7 of Game of Thrones In the event you’ve been living under a rock, Game of Thrones is an HBO TV series adapted from the incomplete “A Song of Ice and Fire” novels by George R.R Martin. It is written for TV by David Benioff and D.B Weiss and just finished its seventh season. Overall I thoroughly enjoyed it, but with my reservations. This season had the show flaunting it’s very best, and simultaneously setting a new low point. I think this can be narrowed down to the way Game of Thrones uses combat, and how that can convey the story at large. Here’s one example of the show at it’s apex, the infamous “loot train attack” in episode 4, Spoils of War. For some brief background, this is the episode Daenerys uses one of her dragons, Drogon, to scorch the Lannister army commanded by Jaime Lannister. Spoils of War was a masterclass in its depiction of battle, and perfectly presented the moral ambiguity of the show, superbly characterized by its thrilling climax. Jaimie, with a newly minted sense of honor, grabs a spear and charges Daenerys, who most viewers have been rooting for since ’Thrones inception. It would be the ultimate victory for Jaime, and is very telling about the courage he possesses. But as soon as Drogon rears his terrifying head and summons his fire breath, I felt horrified just as I’m sure Jaimie felt. That’s what makes combat so riveting in Game of Thrones and why I fell in love with the books and show in the first place, real combat is hell, no matter who you are. Now to contrast that, in season 7 episode 6, Beyond the Wall, that gray area disappears entirely. Here, Jon and seven others head beyond the wall to capture a living zombie and convince Queen Cersei to agree to a cease fire. Barring the absurdity and viability of this plan, and a thousand other issues I have with the episode, I’m just going to focus on one aspect. The unmentioned scouts. You may know them as “the guys wearing hoods”. The issue is, viewers never see them unless they die, and they only serve to artificially create tension because no main character can be killed off. Part of what made Spoils of War great was the way foot soldiers were given an identity, and as a result we could empathize as they screamed for help. Sure there were two named deaths in this episode, but for the most part we saw hordes of zombies overrun people we never knew, and watched our heroes escape only through a combination of suspension of disbelief, and deus-ex machina. The plot very clearly demands none of big names die here and because of that, the writers make silly choices to justify characters survival. The end result, while still visually stunning, was an awkward, rushed, mess. I’m not suggesting every scene be a tedious shot of talking and walking, but the violence in this show works so well because you really care about the parties involved. It’s too easy now to abandon the shades of gray that make Game of Thrones amazing, and end up with conflict that simply rings hollow.</p>
+
+</article>
+
+            
+          </div>
+
+        
+          <div id="languages">
+            
+          </div>
+
+				
+					<footer id="footer">
+						<p class="copyright">&copy; Sam Peterson. Design: <a href="https://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a></p>
+					</footer>
+
+			</div>
+		
+			<div id="bg"></div>
+
+		
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<script src="/js/main.js"></script>
+			
+
+	</body>
+</html>
+
